@@ -37,7 +37,7 @@ Uses MySQL with 3 tables:
 
 ## Project Structure
 
-projectwipro
+CafeManagementSystem
 
 Files included in this project:
 - cafeApp.java (source code)
