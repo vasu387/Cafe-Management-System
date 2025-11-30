@@ -55,29 +55,38 @@ Files included in this project:
 
 
 
-How to Run (Windows, Mac, Linux)
+## ⚙️ How to Run (Windows, macOS, Linux)
 
-1. Compile the Java file
-Windows (CMD/PowerShell)
+### **1. Compile the Java file**
+
+#### 🪟 Windows (CMD / PowerShell)
+```bash
 javac -cp ".;mysql-connector/mysql-connector-j-9.5.0.jar" CafeApp.java
-Linux / macOS (Terminal)
+```
+
+#### 🍎 macOS / 🐧 Linux (Terminal)
+```bash
 javac -cp ".:mysql-connector/mysql-connector-j-9.5.0.jar" CafeApp.java
+```
 
 This will compile the file and create **CafeApp.class**.
 
 ---
 
-### 2. Run the application
-Run the application
-Windows (CMD / PowerShell):
+### **2. Run the Application**
+
+#### 🪟 Windows (CMD / PowerShell)
+```bash
 java -cp ".;mysql-connector/mysql-connector-j-9.5.0.jar" CafeApp
+```
 
-Mac / Linux (Terminal):
+#### 🍎 macOS / 🐧 Linux (Terminal)
+```bash
 java -cp ".:mysql-connector/mysql-connector-j-9.5.0.jar" CafeApp
+```
 
+This will start the **Cafe Management System** in the console.
 
-This will start the Cafe Management System in the console.
----
 
 ## Database Setup (SQL Schema)
 CREATE DATABASE cafe_db;
